@@ -42,7 +42,7 @@ option(IMTUI_SUPPORT_CURL            "imtui: support for libcurl" ${IMTUI_SUPPOR
 option(IMTUI_BUILD_EXAMPLES          "imtui: build examples" ${IMTUI_STANDALONE})
 
 set(CMAKE_CXX_COMPILER "/usr/local/bin/clang++")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20 -stdlib=libc++")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++2b -stdlib=libc++")
 
 # sanitizers
 
